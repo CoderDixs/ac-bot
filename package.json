@@ -1,0 +1,24 @@
+{
+  "name": "bot",
+  "version": "1.8.0",
+  "description": "bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "test": "eslint \"./**/*.js\"",
+    "lint": "eslint --fix \"./**/*.js\""
+  },
+  "engines": {
+    "node": "12.9.1"
+  },
+  "author": "MisterDixs",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv-flow": "^3.1.0",
+    "express": "^4.16.4",
+    "http-as-promised": "^2.0.1",
+    "moment": "^2.24.0",
+    "node-superfetch": "^0.1.9",
+    "strftime": "^0.10.0"
+  }
+}
